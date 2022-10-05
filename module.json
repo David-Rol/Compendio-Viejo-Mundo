@@ -171,7 +171,7 @@
 		"entity": "RollTable"
 		}
     ],
-    "url": "https://gitlab.com/dpdjuegos/compendio-viejo-mundo",
-    "manifest": "https://gitlab.com/dpdjuegos/compendio-viejo-mundo/raw/main/module.json",
-    "download": "https://gitlab.com/dpdjuegos/compendio-viejo-mundo/-/archive/main/compendio-viejo-mundo-main.zip"
+    "url": "https://github.com/David-Rol/Compendio-Viejo-Mundo",
+    "manifest": "https://github.com/David-Rol/Compendio-Viejo-Mundo/raw/main/module.json",
+    "download": "https://github.com/David-Rol/Compendio-Viejo-Mundo/-/archive/main/compendio-viejo-mundo-main.zip"
   }

@@ -172,6 +172,6 @@
 		}
     ],
     "url": "https://github.com/David-Rol/Compendio-Viejo-Mundo",
-    "manifest": "https://github.com/David-Rol/Compendio-Viejo-Mundo/raw/main/module.json",
+    "manifest": "https://github.com/David-Rol/Compendio-Viejo-Mundo/main/module.json",
     "download": "https://github.com/David-Rol/Compendio-Viejo-Mundo/-/archive/main/compendio-viejo-mundo-main.zip"
   }

@@ -1,0 +1,177 @@
+{
+    "name": "Compendio-Viejo-Mundo",
+    "title": "Compendio Viejo Mundo",
+    "description": "A collection of my content.",
+    "version": "1.0.4",
+    "author": "RolNL",
+    "minimumCoreVersion": "0.8.6",
+    "compatibleCoreVersion": "9",
+    "packs": [
+        {
+            "name": "Carreras-VoM",
+            "label": "Carreras (Vientos de la Magia)",
+            "path": "./packs/carreras-VoM.db",
+            "entity": "Item",
+            "type": "Item"
+        },
+        {
+            "name": "Descripciones-carrera-VoM",
+            "label": "Descripciones de Carrera (Vientos de la Magia)",
+            "path": "./packs/descripciones-VoM.db",
+            "entity": "JournalEntry",
+            "type": "JournalEntry"
+        },
+        {
+            "name": "descripciones-de-carrera-companion",
+            "label": "Descripciones de Carrera companion",
+            "path": "./packs/descripciones-de-carrera-companion.db",
+            "entity": "JournalEntry",
+            "type": "JournalEntry"
+        },
+        {
+            "name": "Objetos-VoM",
+            "label": "Objetos(Vientos de la Magia)",
+            "path": "./packs/objetos-VoM.db",
+            "entity": "Item",
+            "type": "Item"
+        },
+        {
+            "name": "Reglas-VoM",
+            "label": "Reglas (Vientos de la Magia)",
+            "path": "./packs/reglas-VoM.db",
+            "entity": "JournalEntry",
+            "type": "JournalEntry"
+        },
+        {
+            "name": "Tablas-VoM",
+            "label": "Tablas (Vientos de la Magia)",
+            "path": "./packs/tablas-VoM.db",
+            "entity": "RollTable",
+            "type": "RollTable"
+        },
+		{
+            "name": "Plantas-Companion",
+            "label": "Plantas Companion",
+            "path": "./packs/Plantas-Companion.db",
+            "entity": "Item",
+            "type": "Item"
+        },
+		{
+		"name": "vehiculos",
+		"label": "Vehículos",
+		"path": "packs/vehiculos.db",
+		"entity": "Actor"
+		},
+		{
+		"name": "animales",
+		"label": "Animales",
+		"path": "packs/animales.db",
+		"entity": "Actor"
+		},
+		{
+		"name": "carreras-UiA",
+		"label": "Carreras (Up in Arms)",
+		"path": "packs/carreras-UiA.db",
+		"entity": "Item"
+		},
+		{
+		"name": "carreras-companion",
+		"label": "Carreras companion",
+		"path": "packs/carreras-companion.db",
+		"entity": "Item"
+		},
+		{
+		"name": "habilidades-VoM",
+		"label": "Habilidades (Vientos de la Magia)",
+		"path": "packs/habilidades-VoM.db",
+		"entity": "Item"
+		},
+		{
+		"name": "talentos-UiA",
+		"label": "Talentos (Up in arms)",
+		"path": "packs/talentos-UiA.db",
+		"entity": "Item"
+		},
+		{
+		"name": "accesorios-companion",
+		"label": "Accesorios companion",
+		"path": "packs/accesorios-companion.db",
+		"entity": "Item"
+		},
+		{
+		"name": "enfermedades-companion",
+		"label": "Enfermedades companion",
+		"path": "packs/enfermedades-companion.db",
+		"entity": "Item"
+		},
+		{
+		"name": "hechizos-companion",
+		"label": "Hechizos companion",
+		"path": "packs/hechizos-companion.db",
+		"entity": "Item"
+		},
+		{
+		"name": "navegacion-fluvial",
+		"label": "Navegación Fluvial",
+		"path": "packs/navegacion-fluvial.db",
+		"entity": "Item"
+		},
+		{
+		"name": "descripciones-UiA",
+		"label": "Descripciones de carrera (Up in arms)",
+		"path": "packs/descripciones-UiA.db",
+		"entity": "JournalEntry"
+		},
+		{
+		"name": "reglas-de-monturas-y-vehiculos",
+		"label": "Reglas de Monturas y Vehículos",
+		"path": "packs/reglas-de-monturas-y-vehiculos.db",
+		"entity": "JournalEntry"
+		},
+		{
+		"name": "reglas-de-navegacion-fluvial",
+		"label": "Reglas de Navegación Fluvial",
+		"path": "packs/reglas-de-navegacion-fluvial.db",
+		"entity": "JournalEntry"
+		},
+		{
+		"name": "reglas-viajes",
+		"label": "Reglas de Viaje",
+		"path": "packs/reglas-viajes.db",
+		"entity": "JournalEntry"
+		},
+		{
+		"name": "tablas-de-viaje",
+		"label": "Tablas de viaje",
+		"path": "packs/tablas-de-viaje.db",
+		"entity": "RollTable"
+		},
+		{
+		"name": "tablas-de-monturas-y-vehiculos",
+		"label": "Tablas de Monturas y Vehículos",
+		"path": "packs/tablas-de-monturas-y-vehiculos.db",
+		"entity": "RollTable"
+		},
+		{
+		"name": "tablas-de-navegacion-fluvial",
+		"label": "Tablas de Navegación Fluvial",
+		"path": "packs/tablas-de-navegacion-fluvial.db",
+		"entity": "RollTable"
+		},
+		{
+		"name": "tablas-de-mutaciones",
+		"label": "Tablas de Mutaciones",
+		"path": "packs/tablas-de-mutaciones.db",
+		"entity": "RollTable"
+		},
+		{
+		"name": "tablas-UiA",
+		"label": "Tablas (Up in arms)",
+		"path": "packs/tablas-UiA.db",
+		"entity": "RollTable"
+		}
+    ],
+    "url": "https://gitlab.com/dpdjuegos/compendio-viejo-mundo",
+    "manifest": "https://gitlab.com/dpdjuegos/compendio-viejo-mundo/raw/main/module.json",
+    "download": "https://gitlab.com/dpdjuegos/compendio-viejo-mundo/-/archive/main/compendio-viejo-mundo-main.zip"
+  }

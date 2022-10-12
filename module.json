@@ -2,174 +2,413 @@
     "name": "Compendio-Viejo-Mundo",
     "title": "Compendio Viejo Mundo",
     "description": "A collection of my content.",
-    "version": "1.0.4",
-    "author": "RolNL",
+    "version": "1.0.5",
+    "authors": "RolNL",
     "minimumCoreVersion": "0.8.6",
-    "compatibleCoreVersion": "9",
+    "compatibility": "10",
+    "scripts": [ "./scripts/subspecies-nom.js" ],
     "packs": [
-        {
-            "name": "Carreras-VoM",
-            "label": "Carreras (Vientos de la Magia)",
-            "path": "./packs/carreras-VoM.db",
-            "entity": "Item",
-            "type": "Item"
-        },
-        {
-            "name": "Descripciones-carrera-VoM",
-            "label": "Descripciones de Carrera (Vientos de la Magia)",
-            "path": "./packs/descripciones-VoM.db",
-            "entity": "JournalEntry",
-            "type": "JournalEntry"
-        },
         {
             "name": "descripciones-de-carrera-companion",
             "label": "Descripciones de Carrera companion",
             "path": "./packs/descripciones-de-carrera-companion.db",
             "entity": "JournalEntry",
-            "type": "JournalEntry"
-        },
-        {
-            "name": "Objetos-VoM",
-            "label": "Objetos(Vientos de la Magia)",
-            "path": "./packs/objetos-VoM.db",
-            "entity": "Item",
-            "type": "Item"
+            "type": "JournalEntry",
+      "system": "wfrp4e"
         },
         {
             "name": "Reglas-VoM",
             "label": "Reglas (Vientos de la Magia)",
             "path": "./packs/reglas-VoM.db",
             "entity": "JournalEntry",
-            "type": "JournalEntry"
+            "type": "JournalEntry",
+      "system": "wfrp4e"
         },
         {
             "name": "Tablas-VoM",
             "label": "Tablas (Vientos de la Magia)",
             "path": "./packs/tablas-VoM.db",
             "entity": "RollTable",
-            "type": "RollTable"
+            "type": "RollTable",
+      "system": "wfrp4e"
         },
 		{
             "name": "Plantas-Companion",
             "label": "Plantas Companion",
             "path": "./packs/Plantas-Companion.db",
             "entity": "Item",
-            "type": "Item"
+            "type": "Item",
+      "system": "wfrp4e"
         },
 		{
 		"name": "vehiculos",
 		"label": "Vehículos",
 		"path": "packs/vehiculos.db",
-		"entity": "Actor"
+		"entity": "Actor",
+		"type": "Actor",
+      "system": "wfrp4e"
 		},
 		{
 		"name": "animales",
 		"label": "Animales",
 		"path": "packs/animales.db",
-		"entity": "Actor"
-		},
-		{
-		"name": "carreras-UiA",
-		"label": "Carreras (Up in Arms)",
-		"path": "packs/carreras-UiA.db",
-		"entity": "Item"
+		"entity": "Actor",
+		"type": "Actor",
+      "system": "wfrp4e"
 		},
 		{
 		"name": "carreras-companion",
 		"label": "Carreras companion",
 		"path": "packs/carreras-companion.db",
-		"entity": "Item"
+		"entity": "Item",
+            "type": "Item",
+      "system": "wfrp4e"
 		},
 		{
-		"name": "habilidades-VoM",
-		"label": "Habilidades (Vientos de la Magia)",
-		"path": "packs/habilidades-VoM.db",
-		"entity": "Item"
+		"name": "habilidades-companion",
+		"label": "Habilidades companion",
+		"path": "packs/habilidades-companion.db",
+		"entity": "Item",
+            "type": "Item",
+      "system": "wfrp4e"
 		},
 		{
-		"name": "talentos-UiA",
-		"label": "Talentos (Up in arms)",
-		"path": "packs/talentos-UiA.db",
-		"entity": "Item"
+		"name": "talentos-companion",
+		"label": "Talentos companion",
+		"path": "packs/talentos-companion.db",
+		"entity": "Item",
+            "type": "Item",
+      "system": "wfrp4e"
 		},
 		{
 		"name": "accesorios-companion",
 		"label": "Accesorios companion",
 		"path": "packs/accesorios-companion.db",
-		"entity": "Item"
+		"entity": "Item",
+            "type": "Item",
+      "system": "wfrp4e"
 		},
 		{
 		"name": "enfermedades-companion",
 		"label": "Enfermedades companion",
 		"path": "packs/enfermedades-companion.db",
-		"entity": "Item"
+		"entity": "Item",
+            "type": "Item",
+      "system": "wfrp4e"
 		},
 		{
 		"name": "hechizos-companion",
 		"label": "Hechizos companion",
 		"path": "packs/hechizos-companion.db",
-		"entity": "Item"
+		"entity": "Item",
+            "type": "Item",
+      "system": "wfrp4e"
 		},
 		{
 		"name": "navegacion-fluvial",
 		"label": "Navegación Fluvial",
 		"path": "packs/navegacion-fluvial.db",
-		"entity": "Item"
-		},
-		{
-		"name": "descripciones-UiA",
-		"label": "Descripciones de carrera (Up in arms)",
-		"path": "packs/descripciones-UiA.db",
-		"entity": "JournalEntry"
+		"entity": "Item",
+            "type": "Item",
+      "system": "wfrp4e"
 		},
 		{
 		"name": "reglas-de-monturas-y-vehiculos",
 		"label": "Reglas de Monturas y Vehículos",
 		"path": "packs/reglas-de-monturas-y-vehiculos.db",
-		"entity": "JournalEntry"
+		"entity": "JournalEntry",
+		"type": "JournalEntry",
+      "system": "wfrp4e"
 		},
 		{
 		"name": "reglas-de-navegacion-fluvial",
 		"label": "Reglas de Navegación Fluvial",
 		"path": "packs/reglas-de-navegacion-fluvial.db",
-		"entity": "JournalEntry"
+		"entity": "JournalEntry",
+		"type": "JournalEntry",
+      "system": "wfrp4e"
 		},
 		{
 		"name": "reglas-viajes",
 		"label": "Reglas de Viaje",
 		"path": "packs/reglas-viajes.db",
-		"entity": "JournalEntry"
+		"entity": "JournalEntry",
+		"type": "JournalEntry",
+      "system": "wfrp4e"
 		},
 		{
 		"name": "tablas-de-viaje",
 		"label": "Tablas de viaje",
 		"path": "packs/tablas-de-viaje.db",
-		"entity": "RollTable"
+		"entity": "RollTable",
+		"type": "RollTable",
+      "system": "wfrp4e"
 		},
 		{
 		"name": "tablas-de-monturas-y-vehiculos",
 		"label": "Tablas de Monturas y Vehículos",
 		"path": "packs/tablas-de-monturas-y-vehiculos.db",
-		"entity": "RollTable"
+		"entity": "RollTable",
+		"type": "RollTable",
+      "system": "wfrp4e"
 		},
 		{
 		"name": "tablas-de-navegacion-fluvial",
 		"label": "Tablas de Navegación Fluvial",
 		"path": "packs/tablas-de-navegacion-fluvial.db",
-		"entity": "RollTable"
+		"entity": "RollTable",
+		"type": "RollTable",
+      "system": "wfrp4e"
 		},
 		{
 		"name": "tablas-de-mutaciones",
 		"label": "Tablas de Mutaciones",
 		"path": "packs/tablas-de-mutaciones.db",
-		"entity": "RollTable"
+		"entity": "RollTable",
+		"type": "RollTable",
+      "system": "wfrp4e"
 		},
 		{
 		"name": "tablas-UiA",
 		"label": "Tablas (Up in arms)",
 		"path": "packs/tablas-UiA.db",
-		"entity": "RollTable"
-		}
+		"entity": "RollTable",
+		"type": "RollTable",
+      "system": "wfrp4e"
+		},
+    {
+      "label": "Clanes Halflings",
+      "type": "JournalEntry",
+      "name": "clanes-halflings",
+      "path": "packs/clanes-halflings.db",
+      "system": "wfrp4e",
+      "private": false,
+      "flags": {}
+    },
+    {
+      "label": "Actores (Ogros)",
+      "type": "Actor",
+      "name": "archivos-del-imperio-ii-actores",
+      "path": "packs/archivos-del-imperio-ii-actores.db",
+      "system": "wfrp4e",
+      "private": false,
+      "flags": {},
+      "id": "world.archivos-del-imperio-ii-actores",
+      "packageType": "world",
+      "packageName": "modulo-material-oficial",
+      "index": [
+        {
+          "name": "Isrogdal El Imperioso",
+          "img": "Isrogdal.png",
+          "type": "npc",
+          "sort": 0,
+          "_id": "vB5qZPra0vBblNf4"
+        },
+        {
+          "name": "Rinobuey",
+          "img": "Rinobuey.png",
+          "type": "creature",
+          "sort": 0,
+          "_id": "jjK42uhr8v0AAhNU"
+        },
+        {
+          "name": "Ugrik La Perdida",
+          "img": "Ugrik.png",
+          "type": "npc",
+          "sort": 0,
+          "_id": "RTNezwpkzDfcs0su"
+        }
+      ]
+    },
+    {
+      "label": "Compendio ogros",
+      "type": "JournalEntry",
+      "name": "archivos-del-imperio-ii-diarios-ogros",
+      "path": "packs/archivos-del-imperio-ii-diarios-ogros.db",
+      "system": "wfrp4e",
+      "private": false,
+      "flags": {},
+      "id": "world.archivos-del-imperio-ii-diarios-ogros",
+      "packageType": "world",
+      "packageName": "modulo-material-oficial",
+      "index": [
+        {
+          "name": "#[CF_tempEntity]",
+          "sort": 0,
+          "_id": "YFSLKSe93aQRMoMj"
+        },
+        {
+          "name": "#[CF_tempEntity]",
+          "sort": 0,
+          "_id": "cTVSmghVwNLt4BHO"
+        },
+        {
+          "name": "#[CF_tempEntity]",
+          "sort": 0,
+          "_id": "hlgUXphTTIhC4RsK"
+        },
+        {
+          "name": "#[CF_tempEntity]",
+          "sort": 0,
+          "_id": "snejAotKQlUGjJ0v"
+        },
+        {
+          "name": "Armadura (Ogros)",
+          "sort": 0,
+          "_id": "9B1Ye2vyegpzqad8"
+        },
+        {
+          "name": "Armas a Distancia (Ogros)",
+          "sort": 0,
+          "_id": "W6krQaKVbfN7jzQt"
+        },
+        {
+          "name": "Armas Cuerpo a Cuerpo (Ogros)",
+          "sort": 0,
+          "_id": "JU2WUS9oghEH855a"
+        },
+        {
+          "name": "Avance de Personajes Ogros",
+          "sort": 0,
+          "_id": "dCaXB8fxmC6kqTMP"
+        },
+        {
+          "name": "Comehombres",
+          "sort": 0,
+          "_id": "J8ejrXE0zWMjNsZd"
+        },
+        {
+          "name": "Crear un Personaje Ogro",
+          "sort": 0,
+          "_id": "Z0qaP045hJ4hWLvU"
+        },
+        {
+          "name": "El Saber de las Grandes Fauces (Ogros)",
+          "sort": 0,
+          "_id": "qWI6EemUo6o4n8Td"
+        },
+        {
+          "name": "Equipo (Ogros)",
+          "sort": 0,
+          "_id": "axOdRjDXduMpNDrv"
+        },
+        {
+          "name": "Historia y Opiniones de los Ogros",
+          "sort": 0,
+          "_id": "tQYcyNJcGTvEodj7"
+        },
+        {
+          "name": "Magia (Ogros)",
+          "sort": 0,
+          "_id": "VUR2gvYGZPguYGZT"
+        },
+        {
+          "name": "Matarife",
+          "sort": 0,
+          "_id": "AsjCpvQQTWf7wz4Y"
+        },
+        {
+          "name": "Munición (Ogros)",
+          "sort": 0,
+          "_id": "9j0hSWHoijl8qD4k"
+        },
+        {
+          "name": "Notas para el DJ (Ogros)",
+          "sort": 0,
+          "_id": "u3VaISKbyMntAgjU"
+        },
+        {
+          "name": "Ogros del Imperio",
+          "sort": 0,
+          "_id": "Rf3ABYOzNRxWuMth"
+        },
+        {
+          "name": "Pastor de Rinobuey",
+          "sort": 0,
+          "_id": "o5OMzzyxQj4VtKtF"
+        }
+      ]
+    },
+    {
+      "label": "Psicologia companion",
+      "type": "Item",
+      "name": "psicologia-companion",
+      "path": "packs/psicologia-companion.db",
+      "system": "wfrp4e",
+      "private": false,
+      "flags": {},
+      "id": "world.archivos-del-imperio-ii-psicologia",
+      "packageType": "world",
+      "packageName": "modulo-material-oficial",
+      "index": [
+        {
+          "name": "Vicio (Objetivo)",
+          "img": "psychology.png",
+          "type": "psychology",
+          "sort": 0,
+          "_id": "NN9j6EVAchqOAbJl"
+        }
+      ]
+    },
+    {
+      "label": "Tablas (Ogros)",
+      "type": "RollTable",
+      "name": "archivos-del-imperio-ii-tablas",
+      "path": "packs/archivos-del-imperio-ii-tablas.db",
+      "system": "wfrp4e",
+      "private": false,
+      "flags": {},
+      "id": "world.archivos-del-imperio-ii-tablas",
+      "packageType": "world",
+      "packageName": "modulo-material-oficial",
+      "index": [
+        {
+          "name": "Carrera - Ogro",
+          "img": "systems/wfrp4e/ui/buttons/d10.webp",
+          "sort": 0,
+          "_id": "OlD12qBak9lIgQd6"
+        },
+        {
+          "name": "Color de Ojos - Ogro",
+          "img": "systems/wfrp4e/ui/buttons/d10.webp",
+          "sort": 0,
+          "_id": "4mhDIQn8cMlV2ieg"
+        },
+        {
+          "name": "Color del Cabello - Ogro",
+          "img": "systems/wfrp4e/ui/buttons/d10.webp",
+          "sort": 0,
+          "_id": "ZmlnWw5V7Dgy6qnI"
+        },
+        {
+          "name": "Especies Aleatorias (Ogros)",
+          "img": "systems/wfrp4e/ui/buttons/d10.webp",
+          "sort": 0,
+          "_id": "yKmON1ZsZnJkBvcF"
+        },
+        {
+          "name": "Nombre Ogro Elemento I",
+          "img": "systems/wfrp4e/ui/buttons/d10.webp",
+          "sort": 0,
+          "_id": "5NyegFsPxr6QcOu7"
+        },
+        {
+          "name": "Nombre Ogro Elemento II",
+          "img": "systems/wfrp4e/ui/buttons/d10.webp",
+          "sort": 0,
+          "_id": "XqcmEBGpP358GFwT"
+        }
+      ]
+    },
+	{
+		"label": "Accesorios companion",
+      "type": "JournalEntry",
+      "name": "accesorios-companion-journal",
+      "path": "packs/accesorios-companion-journal.db",
+      "system": "wfrp4e",
+      "private": false,
+      "flags": {}
+	}
     ],
     "url": "https://github.com/David-Rol/Compendio-Viejo-Mundo",
     "manifest": "https://raw.githubusercontent.com/David-Rol/Compendio-Viejo-Mundo/main/module.json",
